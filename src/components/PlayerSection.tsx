@@ -7,7 +7,8 @@ const benefits = [
   "Real-time shot verification via AI",
   "Automatic prize notification",
   "Track your attempts and stats",
-  "No additional fees or charges",
+  "Flexible pricing: Subscribe or pay per shot",
+  "Easy payment via QR code at each tee box",
 ];
 
 export const PlayerSection = () => {
@@ -46,9 +47,12 @@ export const PlayerSection = () => {
               </div>
 
               <div className="bg-accent/10 rounded-lg p-6 mb-6 border border-accent/30">
-                <p className="text-center text-foreground font-medium">
-                  <span className="text-accent font-bold text-2xl">$0</span> to join. 
-                  <span className="text-accent font-bold text-2xl ml-2">$1,000</span> to win.
+                <p className="text-center text-foreground font-medium mb-3">
+                  <span className="text-accent font-bold text-2xl">£0</span> to register. 
+                  <span className="text-accent font-bold text-2xl ml-2">£1,000</span> to win.
+                </p>
+                <p className="text-center text-sm text-muted-foreground">
+                  Choose subscription for unlimited attempts or pay per shot at the tee box
                 </p>
               </div>
 

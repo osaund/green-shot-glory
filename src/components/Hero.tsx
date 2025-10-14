@@ -25,19 +25,19 @@ export const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-          Ace It. Win It.<br />
-          <span className="text-accent">$1,000 Cash Prize</span>
+          Hole Out Golf<br />
+          <span className="text-accent">£1,000 Cash Prize</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
-          Get a hole-in-one on any par 3 and win big. Our AI-powered cameras capture every shot, verify every ace, and reward every winner.
+          Get a hole-in-one on any par 3 and win big. Our AI-powered cameras capture every shot, verify every ace, and reward every winner. Subscribe or pay per shot via QR code.
         </p>
 
         {/* Prize Counter */}
         <div className="inline-block bg-white/10 backdrop-blur-md rounded-2xl p-8 mb-8 border border-white/20 shadow-2xl">
           <div className="text-sm font-medium text-white/80 mb-2">Current Prize Pool</div>
           <div className="text-6xl md:text-7xl font-bold text-accent mb-2 font-mono tracking-tight">
-            $1,000
+            £1,000
           </div>
           <div className="text-sm text-white/70">Rolls over weekly if no winner</div>
         </div>

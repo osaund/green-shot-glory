@@ -6,9 +6,12 @@ export const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-accent">Ace It. Win It.</h3>
+            <h3 className="text-2xl font-bold mb-4 text-accent">Hole Out Golf</h3>
             <p className="text-primary-foreground/80 mb-4">
               The premier hole-in-one prize platform for golfers and clubs.
+            </p>
+            <p className="text-primary-foreground/60 text-sm">
+              holeoutgolf.com
             </p>
           </div>
 
@@ -27,11 +30,11 @@ export const Footer = () => {
             <ul className="space-y-3 text-primary-foreground/80">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>info@aceitwinit.com</span>
+                <span>info@holeoutgolf.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>1-800-HOLE-IN-1</span>
+                <span>0800-HOLE-OUT</span>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
@@ -42,7 +45,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60 text-sm">
-          <p>&copy; 2025 Ace It. Win It. All rights reserved.</p>
+          <p>&copy; 2025 Hole Out Golf. All rights reserved.</p>
         </div>
       </div>
     </footer>

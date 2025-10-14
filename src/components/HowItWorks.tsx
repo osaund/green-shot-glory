@@ -8,7 +8,7 @@ const steps = [
     icon: QrCode,
     image: qrScanImg,
     title: "Scan QR Code",
-    description: "Find the QR code at any participating par 3 tee box and scan it to start your attempt."
+    description: "Scan the QR code at the tee box to pay per shot or activate your subscription for unlimited attempts."
   },
   {
     icon: Camera,
@@ -20,7 +20,7 @@ const steps = [
     icon: Trophy,
     image: prizeImg,
     title: "Win Instantly",
-    description: "AI reviews your shot in real-time. Hole-in-one? You win $1,000 cash instantly!"
+    description: "AI reviews your shot in real-time. Hole-in-one? You win £1,000 cash instantly!"
   }
 ];
 
@@ -33,7 +33,7 @@ export const HowItWorks = () => {
             How It Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Three simple steps between you and $1,000
+            Three simple steps between you and £1,000
           </p>
         </div>
 
