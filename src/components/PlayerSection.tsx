@@ -4,7 +4,7 @@ import { CheckCircle2, User } from "lucide-react";
 
 const benefits = [
   "Instant eligibility at all partner courses",
-  "Real-time shot verification via AI",
+  "Real-time shot verification",
   "Automatic prize notification",
   "Track your attempts and stats",
   "Flexible pricing: Subscribe or pay per shot",

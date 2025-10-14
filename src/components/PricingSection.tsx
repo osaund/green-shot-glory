@@ -6,12 +6,12 @@ const pricingOptions = [
   {
     name: "Pay Per Shot",
     description: "Perfect for occasional players",
-    price: "£2",
+    price: "£5",
     period: "per attempt",
     features: [
       "Scan QR code at tee box",
       "Instant payment via mobile",
-      "Full AI shot verification",
+      "Full shot verification",
       "Win £1,000 on hole-in-one",
       "No commitment required",
     ],
@@ -21,7 +21,7 @@ const pricingOptions = [
   {
     name: "Monthly Subscription",
     description: "Best value for regular golfers",
-    price: "£9.99",
+    price: "£19.99",
     period: "per month",
     popular: true,
     features: [

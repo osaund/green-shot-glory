@@ -30,7 +30,7 @@ export const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
-          Get a hole-in-one on any par 3 and win big. Our AI-powered cameras capture every shot, verify every ace, and reward every winner. Subscribe or pay per shot via QR code.
+          Get a hole-in-one on any par 3 and win big. Our dual-camera system captures every shot, verifies every ace, and rewards every winner. Subscribe or pay per shot via QR code.
         </p>
 
         {/* Prize Counter */}
