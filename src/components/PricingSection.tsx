@@ -15,7 +15,6 @@ const pricingOptions = [
       "Win £1,000 on hole-in-one",
       "No commitment required",
     ],
-    cta: "Coming Soon",
     variant: "outline" as const,
   },
   {
@@ -92,13 +91,15 @@ export const PricingSection = () => {
                   ))}
                 </ul>
 
-                <Button 
-                  size="lg" 
-                  variant={option.variant}
-                  className="w-full text-lg h-12"
-                >
-                  {option.cta}
-                </Button>
+                {option.cta && (
+                  <Button 
+                    size="lg" 
+                    variant={option.variant}
+                    className="w-full text-lg h-12"
+                  >
+                    {option.cta}
+                  </Button>
+                )}
               </CardContent>
             </Card>
           ))}
