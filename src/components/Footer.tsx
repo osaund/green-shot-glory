@@ -11,7 +11,7 @@ export const Footer = () => {
               The premier hole-in-one prize platform for golfers and clubs.
             </p>
             <p className="text-primary-foreground/60 text-sm">
-              holeoutgolf.com
+              holeoutgolf.co.uk
             </p>
           </div>
 
@@ -30,7 +30,7 @@ export const Footer = () => {
             <ul className="space-y-3 text-primary-foreground/80">
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>info@holeoutgolf.com</span>
+                <span>info@holeoutgolf.co.uk</span>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
