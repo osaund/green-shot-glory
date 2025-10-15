@@ -42,14 +42,6 @@ export const Hero = () => {
           <div className="text-sm text-white/70">Rolls over weekly if no winner</div>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button size="lg" variant="prize" className="text-lg px-8 py-6 h-auto">
-            Coming Soon
-          </Button>
-          <Button size="lg" variant="hero" className="text-lg px-8 py-6 h-auto">
-            Partner with Us
-          </Button>
-        </div>
       </div>
     </section>
   );
