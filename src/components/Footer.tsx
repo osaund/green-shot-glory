@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -31,10 +31,6 @@ export const Footer = () => {
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 <span>info@holeoutgolf.com</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Phone className="w-4 h-4" />
-                <span>0800-HOLE-OUT</span>
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
