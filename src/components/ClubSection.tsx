@@ -68,14 +68,16 @@ export const ClubSection = () => {
                 Join our growing network of partner courses. We handle the technology, 
                 you enjoy the increased traffic and player satisfaction.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" variant="hero" className="text-lg px-8">
-                  Schedule a Demo
-                </Button>
-                <Button size="lg" variant="outline" className="text-lg px-8">
-                  Learn More
-                </Button>
-              </div>
+              <Button 
+                size="lg" 
+                variant="hero" 
+                className="text-lg px-8"
+                asChild
+              >
+                <a href="mailto:info@holeoutgolf.co.uk?subject=Partnership Inquiry">
+                  Contact Us
+                </a>
+              </Button>
             </CardContent>
           </Card>
         </div>
