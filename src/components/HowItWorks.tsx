@@ -19,8 +19,8 @@ const steps = [
   {
     icon: Trophy,
     image: prizeImg,
-    title: "Win Instantly",
-    description: "Our system reviews your shot in real-time. Hole-in-one? You win £1,000 cash instantly!"
+    title: "Get Verified & Win",
+    description: "Our system reviews your shot. Hole-in-one? You win £1,000 cash!"
   }
 ];
 

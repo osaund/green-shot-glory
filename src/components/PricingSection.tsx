@@ -15,7 +15,7 @@ const pricingOptions = [
       "Win £1,000 on hole-in-one",
       "No commitment required",
     ],
-    cta: "Scan & Play",
+    cta: "Coming Soon",
     variant: "outline" as const,
   },
   {
@@ -32,7 +32,7 @@ const pricingOptions = [
       "Detailed stats tracking",
       "Cancel anytime",
     ],
-    cta: "Subscribe Now",
+    cta: "Coming Soon",
     variant: "prize" as const,
   },
 ];
