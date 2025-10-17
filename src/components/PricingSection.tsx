@@ -24,7 +24,7 @@ const pricingOptions = [
     period: "per month",
     popular: true,
     features: [
-      "Unlimited attempts all month",
+      "One attempt per day",
       "Access to all partner courses",
       "Priority shot processing",
       "Win £1,000 on hole-in-one",
