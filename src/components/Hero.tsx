@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Trophy } from "lucide-react";
 import heroGolf from "@/assets/hero-golf.jpg";
+import logo from "@/assets/logo.jpeg";
 
 export const Hero = () => {
   return (
@@ -19,6 +20,13 @@ export const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
+        {/* Logo */}
+        <img 
+          src={logo} 
+          alt="Hole Out Golf Logo" 
+          className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-6 filter drop-shadow-2xl"
+        />
+        
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/20 rounded-full mb-6 backdrop-blur-sm border border-accent/30">
           <Trophy className="w-4 h-4 text-accent" />
           <span className="text-sm font-medium text-accent">Weekly Cash Prizes</span>
