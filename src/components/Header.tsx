@@ -10,7 +10,8 @@ export const Header = () => {
           <img 
             src={logo} 
             alt="Hole Out Golf" 
-            className="h-10 w-10"
+            className="h-10 w-10 object-contain"
+            style={{ background: 'transparent' }}
           />
           <span className="text-xl font-bold text-foreground">Hole Out Golf</span>
         </div>
