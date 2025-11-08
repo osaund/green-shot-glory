@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Trophy } from "lucide-react";
 import heroGolf from "@/assets/hero-golf.jpg";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.png";
 
 export const Hero = () => {
   return (
