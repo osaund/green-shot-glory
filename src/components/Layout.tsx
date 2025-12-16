@@ -1,5 +1,6 @@
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/AppSidebar";
+import { Footer } from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/logo.png";
 
@@ -12,7 +13,7 @@ export function Layout({ children }: LayoutProps) {
     <SidebarProvider>
       <div className="min-h-screen flex w-full">
         <AppSidebar />
-        <main className="flex-1">
+        <main className="flex-1 flex flex-col">
           <header className="sticky top-0 z-50 bg-primary/95 backdrop-blur-sm border-b border-white/10">
             <div className="flex items-center justify-between h-14 px-4">
               <div className="flex items-center">
@@ -27,7 +28,10 @@ export function Layout({ children }: LayoutProps) {
               </a>
             </div>
           </header>
-          {children}
+          <div className="flex-1">
+            {children}
+          </div>
+          <Footer />
         </main>
       </div>
     </SidebarProvider>
