@@ -22,7 +22,7 @@ export const Hero = () => {
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           Hole Out Golf<br />
-          <span className="text-accent">Up to £10,000 Cash Prize</span>
+          <span className="text-accent">Win Cash Prizes</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
