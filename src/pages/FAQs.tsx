@@ -15,7 +15,7 @@ const faqCategories = [
       },
       {
         question: "Is this a game of skill or classed as gambling?",
-        answer: "The challenge is presented as a skill-based hole-in-one competition rather than a chance lottery. That said, classification can vary by jurisdiction—clubs should confirm with their legal/insurance advisor if they need an official ruling for their area."
+        answer: "The challenge is presented as a skill-based hole-in-one competition rather than a chance lottery."
       },
       {
         question: "What's the benefit for our course if we take part?",
@@ -35,7 +35,7 @@ const faqCategories = [
     title: "Prize & Insurance Questions",
     faqs: [
       {
-        question: "Who funds or covers the prize pot (e.g. £1,000)?",
+        question: "Who funds or covers the prize pot?",
         answer: "Prizes are typically funded by Hole Out Golf (the operator) and/or sponsored by a partner. The model can also be run with an insurance-backed prize (operator purchases a prize policy to cover payouts)."
       },
       {
