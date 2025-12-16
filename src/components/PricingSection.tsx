@@ -7,7 +7,7 @@ const pricingOptions = [
     name: "Pay Per Shot",
     description: "Perfect for occasional players",
     price: "£5",
-    period: "per attempt",
+    period: "per course",
     features: [
       "Scan QR code at tee box",
       "Instant payment via mobile",
@@ -20,7 +20,7 @@ const pricingOptions = [
   {
     name: "Monthly Subscription",
     description: "Best value for regular golfers",
-    price: "£19.99",
+    price: "£9.99",
     period: "per month",
     popular: true,
     features: [
