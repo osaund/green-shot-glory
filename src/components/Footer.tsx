@@ -1,4 +1,5 @@
 import { Mail, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -18,10 +19,10 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><a href="#" className="hover:text-accent transition-colors">How It Works</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Player Registration</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Partner Clubs</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">FAQ</a></li>
+              <li><Link to="/" className="hover:text-accent transition-colors">Home</Link></li>
+              <li><Link to="/why-us" className="hover:text-accent transition-colors">Why Us</Link></li>
+              <li><Link to="/faqs" className="hover:text-accent transition-colors">FAQ</Link></li>
+              <li><a href="https://app.holeoutgolf.co.uk" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Get Started</a></li>
             </ul>
           </div>
 
