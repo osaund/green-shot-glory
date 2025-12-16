@@ -6,7 +6,7 @@ const pricingOptions = [
   {
     name: "Pay Per Shot",
     description: "Perfect for occasional players",
-    price: "£5",
+    price: "From £3",
     period: "per course",
     features: [
       "Scan QR code at tee box",
