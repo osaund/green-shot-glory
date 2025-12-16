@@ -1,6 +1,6 @@
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/AppSidebar";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-transparent.png";
 
 interface LayoutProps {
   children: React.ReactNode;
