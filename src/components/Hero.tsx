@@ -1,4 +1,3 @@
-import { Trophy } from "lucide-react";
 import heroGolf from "@/assets/hero-golf.jpg";
 import logo from "@/assets/logo.png";
 
@@ -21,18 +20,13 @@ export const Hero = () => {
       <div className="relative z-10 container mx-auto px-6 text-center">
         <img src={logo} alt="Hole Out Golf Logo" className="w-32 h-32 mx-auto mb-6" />
         
-        <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/20 rounded-full mb-6 backdrop-blur-sm border border-accent/30">
-          <Trophy className="w-4 h-4 text-accent" />
-          <span className="text-sm font-medium text-accent">Weekly Cash Prizes</span>
-        </div>
-        
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           Hole Out Golf<br />
-          <span className="text-accent">£1,000 Cash Prize</span>
+          <span className="text-accent">Up to £10,000 Cash Prize</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-          Get a hole-in-one on any par 3 and win big. Our dual-camera system captures every shot, verifies every ace, and rewards every winner. Subscribe or pay per shot via QR code.
+          Get a hole-in-one on any par 3 and win big. Our dual-camera system captures every shot, verifies every ace, and rewards every winner.
         </p>
       </div>
     </section>
