@@ -5,7 +5,6 @@ import {
   Shield, 
   Camera, 
   Trophy, 
-  Clock, 
   Users, 
   Zap,
   CheckCircle
@@ -21,11 +20,6 @@ const features = [
     icon: Shield,
     title: "Guaranteed Payouts",
     description: "Every prize is fully insured and guaranteed. Quick and reliable payouts for every verified winner."
-  },
-  {
-    icon: Clock,
-    title: "Instant Processing",
-    description: "AI-powered shot analysis means your hole-in-one is verified in seconds, not days. No waiting, no paperwork."
   },
   {
     icon: Trophy,
