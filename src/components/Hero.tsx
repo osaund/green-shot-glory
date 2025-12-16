@@ -1,8 +1,10 @@
+import { Button } from "@/components/ui/button";
+import { Trophy } from "lucide-react";
 import heroGolf from "@/assets/hero-golf.jpg";
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-16">
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0"
@@ -17,6 +19,11 @@ export const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
+        <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/20 rounded-full mb-6 backdrop-blur-sm border border-accent/30">
+          <Trophy className="w-4 h-4 text-accent" />
+          <span className="text-sm font-medium text-accent">Weekly Cash Prizes</span>
+        </div>
+        
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           Hole Out Golf<br />
           <span className="text-accent">£1,000 Cash Prize</span>
