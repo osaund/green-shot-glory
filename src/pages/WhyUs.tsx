@@ -20,7 +20,7 @@ const features = [
   {
     icon: Shield,
     title: "Guaranteed Payouts",
-    description: "Every prize is fully insured and guaranteed. When you sink that ace, your £1,000 is paid out within 24 hours."
+    description: "Every prize is fully insured and guaranteed. Quick and reliable payouts for every verified winner."
   },
   {
     icon: Clock,
@@ -114,7 +114,7 @@ export default function WhyUs() {
             Ready to Take Your Shot?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-xl mx-auto">
-            Join thousands of golfers already playing for the £1,000 prize.
+            Join thousands of golfers already playing for cash prizes.
           </p>
           <Link to="/">
             <Button variant="prize" size="lg" className="text-lg px-8">
