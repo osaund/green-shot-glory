@@ -1,6 +1,4 @@
-import { Button } from "@/components/ui/button";
 import { Trophy } from "lucide-react";
-import { Link } from "react-router-dom";
 import heroGolf from "@/assets/hero-golf.jpg";
 
 export const Hero = () => {
@@ -42,12 +40,6 @@ export const Hero = () => {
           </div>
           <div className="text-sm text-white/70">Rolls over weekly if no winner</div>
         </div>
-
-        <Link to="/why-us">
-          <Button variant="outline" className="border-white/30 text-white hover:bg-white/10">
-            Why Choose Us?
-          </Button>
-        </Link>
       </div>
     </section>
   );

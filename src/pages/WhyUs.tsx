@@ -8,7 +8,6 @@ import {
   Clock, 
   Users, 
   Zap,
-  ArrowLeft,
   CheckCircle
 } from "lucide-react";
 
@@ -56,17 +55,7 @@ const benefits = [
 
 export default function WhyUs() {
   return (
-    <div className="min-h-screen bg-background">
-      {/* Header */}
-      <header className="bg-primary text-white py-4">
-        <div className="container mx-auto px-6 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2 text-white hover:text-accent transition-colors">
-            <ArrowLeft className="w-5 h-5" />
-            <span>Back to Home</span>
-          </Link>
-          <h1 className="text-xl font-bold">Hole Out Golf</h1>
-        </div>
-      </header>
+    <div className="bg-background">
 
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-b from-primary to-primary/90 text-white">
@@ -135,12 +124,6 @@ export default function WhyUs() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="py-8 bg-foreground text-background">
-        <div className="container mx-auto px-6 text-center">
-          <p className="text-sm opacity-70">© 2024 Hole Out Golf. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 }
