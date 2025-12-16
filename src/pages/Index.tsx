@@ -3,7 +3,6 @@ import { VideoSection } from "@/components/VideoSection";
 import { HowItWorks } from "@/components/HowItWorks";
 import { PricingSection } from "@/components/PricingSection";
 import { ClubSection } from "@/components/ClubSection";
-import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -13,7 +12,6 @@ const Index = () => {
       <HowItWorks />
       <PricingSection />
       <ClubSection />
-      <Footer />
     </div>
   );
 };
