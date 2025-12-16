@@ -1,6 +1,10 @@
 import { Mail, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
 export const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-12">
@@ -19,9 +23,9 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><Link to="/" className="hover:text-accent transition-colors">Home</Link></li>
-              <li><Link to="/why-us" className="hover:text-accent transition-colors">Why Us</Link></li>
-              <li><Link to="/faqs" className="hover:text-accent transition-colors">FAQ</Link></li>
+              <li><Link to="/" onClick={scrollToTop} className="hover:text-accent transition-colors">Home</Link></li>
+              <li><Link to="/why-us" onClick={scrollToTop} className="hover:text-accent transition-colors">Why Us</Link></li>
+              <li><Link to="/faqs" onClick={scrollToTop} className="hover:text-accent transition-colors">FAQ</Link></li>
               <li><a href="https://app.holeoutgolf.co.uk" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Get Started</a></li>
             </ul>
           </div>
