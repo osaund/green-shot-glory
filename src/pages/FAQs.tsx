@@ -174,32 +174,6 @@ export default function FAQs() {
               </Accordion>
             </div>
           ))}
-
-          {/* Next Steps */}
-          <div className="mt-16 p-8 bg-secondary/30 rounded-2xl">
-            <h2 className="text-2xl font-bold text-foreground mb-6">Next Steps</h2>
-            <ol className="space-y-3 text-muted-foreground">
-              <li className="flex items-start gap-3">
-                <span className="bg-primary text-primary-foreground rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0">1</span>
-                <span>Site survey & tech assessment</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="bg-primary text-primary-foreground rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0">2</span>
-                <span>Commercial proposal and T&Cs</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="bg-primary text-primary-foreground rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0">3</span>
-                <span>Pilot install</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="bg-primary text-primary-foreground rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0">4</span>
-                <span>Go live & marketing launch</span>
-              </li>
-            </ol>
-            <p className="mt-6 text-sm text-muted-foreground">
-              For questions, verification policy or to request a proposal, contact your Hole Out Golf representative.
-            </p>
-          </div>
         </div>
       </section>
     </div>
