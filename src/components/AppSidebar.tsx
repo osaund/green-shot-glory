@@ -9,7 +9,6 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  useSidebar,
 } from "@/components/ui/sidebar";
 
 const menuItems = [
@@ -19,12 +18,10 @@ const menuItems = [
 ];
 
 export function AppSidebar() {
-  const { state } = useSidebar();
   const location = useLocation();
-  const collapsed = state === "collapsed";
 
   return (
-    <Sidebar collapsible="icon">
+    <Sidebar collapsible="offcanvas">
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>Navigation</SidebarGroupLabel>
@@ -38,7 +35,7 @@ export function AppSidebar() {
                   >
                     <Link to={item.url}>
                       <item.icon className="h-4 w-4" />
-                      {!collapsed && <span>{item.title}</span>}
+                      <span>{item.title}</span>
                     </Link>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
