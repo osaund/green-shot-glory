@@ -32,8 +32,10 @@ export function Layout({ children }: LayoutProps) {
             >
               {isExpanded ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </Button>
-            <img src={logo} alt="Hole Out Golf Logo" className="h-10 w-10 ml-4" />
-            <span className="ml-3 text-white font-bold text-lg">Hole Out Golf</span>
+            <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
+              <img src={logo} alt="Hole Out Golf Logo" className="h-10 w-10 ml-4" />
+              <span className="ml-3 text-white font-bold text-lg">Hole Out Golf</span>
+            </Link>
           </div>
           <a href="https://app.holeoutgolf.co.uk" target="_blank" rel="noopener noreferrer">
             <Button variant="prize" size="sm">
