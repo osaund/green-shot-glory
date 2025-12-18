@@ -111,7 +111,7 @@ const Courses = () => {
                 More partner courses coming soon across the UK
               </p>
               <a 
-                href="mailto:courses@holeoutgolf.co.uk" 
+                href="mailto:info@holeoutgolf.co.uk" 
                 className="text-primary hover:text-primary/80 font-medium underline underline-offset-4"
               >
                 Interested in partnering with us? Get in touch
