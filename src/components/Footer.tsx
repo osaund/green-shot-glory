@@ -24,6 +24,7 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4 text-lg">Quick Links</h4>
             <ul className="space-y-2 text-primary-foreground/80">
               <li><Link to="/" onClick={scrollToTop} className="hover:text-accent transition-colors">Home</Link></li>
+              <li><Link to="/courses" onClick={scrollToTop} className="hover:text-accent transition-colors">Courses</Link></li>
               <li><Link to="/why-us" onClick={scrollToTop} className="hover:text-accent transition-colors">Why Us</Link></li>
               <li><Link to="/faqs" onClick={scrollToTop} className="hover:text-accent transition-colors">FAQ</Link></li>
               <li><a href="https://app.holeoutgolf.co.uk" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Get Started</a></li>
