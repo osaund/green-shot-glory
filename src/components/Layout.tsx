@@ -41,19 +41,18 @@ export function Layout({ children }: LayoutProps) {
             </Link>
           </div>
 
-          {/* Desktop navigation */}
-          <nav className="hidden md:flex items-center gap-1">
+          {/* Desktop navigation - right aligned */}
+          <nav className="hidden md:flex items-center gap-1 ml-auto mr-4">
             {navItems.map((item) => (
               <Link
                 key={item.title}
                 to={item.url}
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg transition-colors text-sm ${
+                className={`px-3 py-2 rounded-lg transition-colors text-sm ${
                   location.pathname === item.url
                     ? "bg-white/20 text-white"
                     : "text-white/80 hover:bg-white/10 hover:text-white"
                 }`}
               >
-                <item.icon className="h-4 w-4" />
                 {item.title}
               </Link>
             ))}
