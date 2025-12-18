@@ -1,4 +1,4 @@
-import { MapPin, Clock, Flag, ExternalLink } from "lucide-react";
+import { MapPin, Clock, Flag } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import ampfieldCourse from "@/assets/ampfield-golf-course.jpg";
@@ -39,9 +39,14 @@ const Courses = () => {
               <CardContent className="p-6 md:p-8">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                   <div>
-                    <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
+                    <a 
+                      href="https://www.ampfieldgolf.com" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-2xl md:text-3xl font-bold text-foreground mb-2 hover:text-primary transition-colors"
+                    >
                       Ampfield Golf Club
-                    </h2>
+                    </a>
                     <div className="flex items-center text-muted-foreground">
                       <MapPin className="h-4 w-4 mr-2" />
                       <span>Romsey, Hampshire</span>
@@ -82,15 +87,6 @@ const Courses = () => {
                   </div>
                 </div>
 
-                <a 
-                  href="https://www.ampfieldgolf.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-primary hover:text-primary/80 font-medium mb-6"
-                >
-                  <ExternalLink className="h-4 w-4" />
-                  Visit Ampfield Golf Club website
-                </a>
 
                 {/* Secondary Image */}
                 <div className="relative rounded-lg overflow-hidden">
