@@ -1,7 +1,7 @@
 import { MapPin, Clock, Flag } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import ampfieldCourse from "@/assets/ampfield-golf-course.jpg";
+import ampfieldCourse from "@/assets/ampfield-golf-club-panorama.jpg";
 import ampfieldCourse2 from "@/assets/ampfield-golf-course-2.jpg";
 
 const Courses = () => {
