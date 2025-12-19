@@ -1,10 +1,7 @@
-import { Layout } from "@/components/Layout";
-
 const Terms = () => {
   return (
-    <Layout>
-      <div className="bg-background py-16">
-        <div className="container mx-auto px-6 max-w-4xl">
+    <div className="bg-background py-16">
+      <div className="container mx-auto px-6 max-w-4xl">
           <h1 className="text-4xl font-bold text-primary mb-2">Player Terms & Conditions</h1>
           <p className="text-muted-foreground mb-12">Last Updated: 01/12/2025</p>
 
@@ -112,7 +109,6 @@ const Terms = () => {
           </div>
         </div>
       </div>
-    </Layout>
   );
 };
 
