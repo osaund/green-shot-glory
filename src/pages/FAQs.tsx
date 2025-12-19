@@ -40,7 +40,7 @@ const faqCategories = [
       },
       {
         question: "What happens if multiple players win in one day?",
-        answer: "If multiple verified winners occur the prize distribution follows the agreed T&Cs: either full prize per verified winner (insured model) or a split arrangement. The club receives the T&Cs before launch and can choose the model that suits them."
+        answer: "If multiple verified winners occur on the same day, the prize is split between them. The club receives the T&Cs before launch outlining the arrangement."
       },
       {
         question: "How quickly are prizes paid out once verified?",
