@@ -20,7 +20,7 @@ const steps = [
     icon: Trophy,
     image: prizeImg,
     title: "Get Verified & Win",
-    description: "Our system reviews your shot. Hole-in-one? You win £1,000 cash!"
+    description: "Our system reviews your shot. Hole-in-one? You win a cash prize!"
   }
 ];
 
@@ -33,7 +33,7 @@ export const HowItWorks = () => {
             How It Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Three simple steps between you and £1,000
+            Three simple steps between you and a cash prize
           </p>
         </div>
 

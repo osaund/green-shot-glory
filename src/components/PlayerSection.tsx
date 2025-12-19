@@ -49,7 +49,7 @@ export const PlayerSection = () => {
               <div className="bg-accent/10 rounded-lg p-6 mb-6 border border-accent/30">
                 <p className="text-center text-foreground font-medium mb-3">
                   <span className="text-accent font-bold text-2xl">£0</span> to register. 
-                  <span className="text-accent font-bold text-2xl ml-2">£1,000</span> to win.
+                  <span className="text-accent font-bold text-2xl ml-2">Cash prize</span> to win.
                 </p>
                 <p className="text-center text-sm text-muted-foreground">
                   Choose subscription for unlimited attempts or pay per shot at the tee box
