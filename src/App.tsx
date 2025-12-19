@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import WhyUs from "./pages/WhyUs";
 import FAQs from "./pages/FAQs";
 import Courses from "./pages/Courses";
+import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
             <Route path="/why-us" element={<WhyUs />} />
             <Route path="/faqs" element={<FAQs />} />
             <Route path="/courses" element={<Courses />} />
+            <Route path="/terms" element={<Terms />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
