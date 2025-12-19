@@ -36,7 +36,7 @@ const faqCategories = [
     faqs: [
       {
         question: "Who funds or covers the prize pot?",
-        answer: "Prizes are typically funded by Hole Out Golf (the operator) and/or sponsored by a partner. The model can also be run with an insurance-backed prize (operator purchases a prize policy to cover payouts)."
+        answer: "Prizes are funded by Hole Out Golf."
       },
       {
         question: "What happens if multiple players win in one day?",
