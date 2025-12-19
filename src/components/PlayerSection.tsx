@@ -25,7 +25,7 @@ export const PlayerSection = () => {
                 <div>
                   <CardTitle className="text-3xl">Join as a Player</CardTitle>
                   <CardDescription className="text-lg mt-1">
-                    Free registration. Unlimited attempts.
+                    Free registration. Unlimited daily attempts.
                   </CardDescription>
                 </div>
               </div>
@@ -52,7 +52,7 @@ export const PlayerSection = () => {
                   <span className="text-accent font-bold text-2xl ml-2">Cash prize</span> to win.
                 </p>
                 <p className="text-center text-sm text-muted-foreground">
-                  Choose subscription for unlimited attempts or pay per shot at the tee box
+                  Choose subscription for unlimited daily attempts or pay per shot at the tee box
                 </p>
               </div>
 
