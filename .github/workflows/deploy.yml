@@ -1,14 +1,17 @@
-name: Manual Deploy to GitHub Pages
+name: Manual GitHub Pages Deploy
 
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write   # Needed for GITHUB_TOKEN
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Node
@@ -20,14 +23,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Build
+        run: npm run build
+
       - name: Configure git identity
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-
-      - name: Deploy
-        run: npm run deploy
+      - name: Deploy to GitHub Pages
+        run: npx gh-pages -d dist -t
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
