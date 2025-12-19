@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # Needed for GITHUB_TOKEN
+  contents: write
 
 jobs:
   deploy:
@@ -26,12 +26,8 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Configure git identity
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Deploy to GitHub Pages
-        run: npx gh-pages -d dist -t
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
