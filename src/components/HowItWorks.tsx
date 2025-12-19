@@ -8,7 +8,7 @@ const steps = [
     icon: QrCode,
     image: qrScanImg,
     title: "Scan QR Code",
-    description: "Scan the QR code at the tee box to pay per shot or activate your subscription for unlimited attempts."
+    description: "Scan the QR code at the tee box to pay per shot or activate your subscription for unlimited daily attempts."
   },
   {
     icon: Camera,
