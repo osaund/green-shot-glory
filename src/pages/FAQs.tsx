@@ -11,7 +11,7 @@ const faqCategories = [
     faqs: [
       {
         question: "What exactly is Hole Out Golf and how does it work?",
-        answer: "Hole Out Golf runs a live, club-hosted hole-in-one challenge. Players register and play the hole as part of their normal round; every verified hole-in-one during the promotion wins a prize. Verification is done using time-synced camera footage, timestamps and an audit trail."
+        answer: "Hole Out Golf runs a daily, club-hosted hole-in-one competition. Players register and play the hole as part of their normal round; every verified hole-in-one during the competition makes you the day's champion. Verification is done using time-synced camera footage, timestamps and an audit trail."
       },
       {
         question: "Is this a game of skill or classed as gambling?",
@@ -23,7 +23,7 @@ const faqCategories = [
       },
       {
         question: "Do golfers play as part of their normal round, or is it a separate event?",
-        answer: "Players take part during their normal round; the challenge is designed to be low-impact on tee scheduling. Special events or dedicated prize days are optional and can be scheduled separately if the club prefers."
+        answer: "Players take part during their normal round; the competition is designed to be low-impact on tee scheduling. Special events or dedicated competition days are optional and can be scheduled separately if the club prefers."
       },
       {
         question: "How do we verify a legitimate hole-in-one?",
@@ -32,19 +32,19 @@ const faqCategories = [
     ]
   },
   {
-    title: "Prize & Insurance Questions",
+    title: "Competition Rewards & Insurance",
     faqs: [
       {
-        question: "Who funds or covers the prize pot?",
-        answer: "Prizes are funded by Hole Out Golf."
+        question: "Who funds the competition rewards?",
+        answer: "Competition rewards are funded by Hole Out Golf."
       },
       {
-        question: "What happens if multiple players win in one day?",
-        answer: "If multiple verified winners occur on the same day, the prize is split between them. The club receives the T&Cs before launch outlining the arrangement."
+        question: "What happens if multiple players are champions on one day?",
+        answer: "If multiple verified champions occur on the same day, the reward is split between them. The club receives the T&Cs before launch outlining the arrangement."
       },
       {
-        question: "How quickly are prizes paid out once verified?",
-        answer: "Once a win is verified, payouts are processed promptly. Typical timelines are: verification completed within 48–72 hours, payment to the winner within 3–7 business days depending on the payout route (bank transfer or cheque)."
+        question: "How quickly are rewards paid out once verified?",
+        answer: "Once a champion is verified, payouts are processed promptly. Typical timelines are: verification completed within 48–72 hours, payment to the champion within 3–7 business days depending on the payout route (bank transfer or cheque)."
       }
     ]
   },
@@ -86,7 +86,7 @@ const faqCategories = [
     faqs: [
       {
         question: "How much involvement would our staff need?",
-        answer: "Minimal day-to-day involvement. Typical tasks for staff: occasional confirmation of a verified win, simple coordination during install, and basic signposting/communication to members. The operator handles the bulk of customer-facing work."
+        answer: "Minimal day-to-day involvement. Typical tasks for staff: occasional confirmation of a verified champion, simple coordination during install, and basic signposting/communication to members. The operator handles the bulk of customer-facing work."
       },
       {
         question: "How are players registered or tracked for participation?",

@@ -6,7 +6,7 @@ const benefits = [
   {
     icon: Users,
     title: "Increase Foot Traffic",
-    description: "Attract more players with exciting prize opportunities"
+    description: "Attract more players with our exciting daily competitions"
   },
   {
     icon: TrendingUp,

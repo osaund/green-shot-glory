@@ -18,13 +18,13 @@ const features = [
   },
   {
     icon: Shield,
-    title: "Guaranteed Payouts",
-    description: "Every prize is fully insured and guaranteed. Quick and reliable payouts for every verified winner."
+    title: "Guaranteed Rewards",
+    description: "Every competition reward is fully backed and guaranteed. Quick and reliable payouts for every verified champion."
   },
   {
     icon: Trophy,
-    title: "Weekly Prize Pools",
-    description: "Prize pools roll over weekly if there's no winner, meaning bigger potential payouts for lucky golfers."
+    title: "Daily Competitions",
+    description: "Enter our daily hole-in-one competition at any partner course. Every day is a new chance to become a champion."
   },
   {
     icon: Users,
@@ -58,7 +58,7 @@ export default function WhyUs() {
             Why Choose <span className="text-accent">Hole Out Golf?</span>
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            The most trusted, transparent, and exciting hole-in-one prize system in golf.
+            The most trusted, transparent, and exciting hole-in-one competition in golf.
           </p>
         </div>
       </section>
@@ -87,7 +87,7 @@ export default function WhyUs() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-12">
-              Everything You Need to Win Big
+              Everything You Need to Compete
             </h2>
             <div className="grid md:grid-cols-2 gap-4">
               {benefits.map((benefit, index) => (
@@ -108,7 +108,7 @@ export default function WhyUs() {
             Ready to Take Your Shot?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-xl mx-auto">
-            Join thousands of golfers already playing for cash prizes.
+            Join thousands of golfers already entering our daily competitions.
           </p>
           <Link to="/">
             <Button variant="prize" size="lg" className="text-lg px-8">
