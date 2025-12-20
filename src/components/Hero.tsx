@@ -26,7 +26,7 @@ export const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-          Enter our daily hole-in-one competition on any par 3. Our dual-camera system captures every shot, verifies every ace, and celebrates every champion.
+          Enter our daily hole-in-one competition on any par 3 for your chance to win £1,000. Our dual-camera system captures every shot, verifies every ace, and celebrates every champion.
         </p>
       </div>
     </section>
