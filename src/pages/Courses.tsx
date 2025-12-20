@@ -14,7 +14,7 @@ const Courses = () => {
             Partner Courses
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Play for cash prizes at our partner golf courses across the UK
+            Enter our daily golf competition at partner courses across the UK
           </p>
         </div>
       </section>
@@ -98,7 +98,7 @@ const Courses = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end">
                     <div className="p-4 text-white">
                       <p className="font-semibold">Hole Out Golf Coming Soon</p>
-                      <p className="text-sm text-white/80">Win cash prizes for your hole-in-one</p>
+                      <p className="text-sm text-white/80">Enter our daily competition on any par 3</p>
                     </div>
                   </div>
                 </div>
