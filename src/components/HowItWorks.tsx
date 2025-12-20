@@ -19,8 +19,8 @@ const steps = [
   {
     icon: Trophy,
     image: prizeImg,
-    title: "Get Verified & Win",
-    description: "Our system reviews your shot. Hole-in-one? You win a cash prize!"
+    title: "Get Verified & Compete",
+    description: "Our system reviews your shot. Hole-in-one? You're today's competition champion!"
   }
 ];
 
@@ -33,7 +33,7 @@ export const HowItWorks = () => {
             How It Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Three simple steps between you and a cash prize
+            Three simple steps to enter our daily competition
           </p>
         </div>
 

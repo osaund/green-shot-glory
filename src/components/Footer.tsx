@@ -13,7 +13,7 @@ export const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4 text-accent">Hole Out Golf</h3>
             <p className="text-primary-foreground/80 mb-4">
-              The premier hole-in-one prize platform for golfers and clubs.
+              The premier hole-in-one competition platform for golfers and clubs.
             </p>
             <p className="text-primary-foreground/60 text-sm">
               holeoutgolf.co.uk
