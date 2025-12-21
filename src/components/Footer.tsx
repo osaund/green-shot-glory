@@ -48,9 +48,15 @@ export const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60 text-sm">
           <p className="mb-2">&copy; 2025 Hole Out Golf. All rights reserved.</p>
-          <Link to="/terms" onClick={scrollToTop} className="hover:text-accent transition-colors">
-            Terms & Conditions
-          </Link>
+          <div className="flex justify-center gap-4">
+            <Link to="/terms" onClick={scrollToTop} className="hover:text-accent transition-colors">
+              Terms & Conditions
+            </Link>
+            <span>|</span>
+            <Link to="/privacy" onClick={scrollToTop} className="hover:text-accent transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
