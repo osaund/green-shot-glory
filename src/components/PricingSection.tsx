@@ -15,7 +15,6 @@ const pricingOptions = [
       "Win cash on hole-in-one",
       "No commitment required",
     ],
-    cta: "Scan QR Code at Tee Box or Pay in App",
     variant: "outline" as const,
   },
   {
