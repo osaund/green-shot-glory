@@ -34,27 +34,23 @@ const Privacy = () => {
 
           <section>
             <h2 className="text-2xl font-semibold text-primary mb-3">4. Why we use your data (lawful basis)</h2>
-            <ul className="list-disc list-inside text-foreground/80 space-y-2 ml-4">
-              <li><strong>Performance of a contract / service:</strong> to operate competitions and deliver services</li>
-              <li><strong>Consent:</strong> for optional marketing or sharing footage</li>
-              <li><strong>Legal obligation:</strong> to verify age and prevent fraud</li>
-            </ul>
+            <p className="text-foreground/80 leading-relaxed">
+              <strong>Performance of a contract / service:</strong> to operate competitions and deliver services. <strong>Consent:</strong> for optional marketing or sharing footage. <strong>Legal obligation:</strong> to verify age and prevent fraud.
+            </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-primary mb-3">5. Video and image footage</h2>
-            <ul className="list-disc list-inside text-foreground/80 space-y-2 ml-4">
-              <li>Footage is used for competition verification, service delivery, and internal analysis.</li>
-              <li>Footage will not be shared publicly without your explicit consent.</li>
-            </ul>
+            <p className="text-foreground/80 leading-relaxed">
+              Footage is used for competition verification, service delivery, and internal analysis. Footage will not be shared publicly without your explicit consent.
+            </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-primary mb-3">6. Sharing your data</h2>
-            <ul className="list-disc list-inside text-foreground/80 space-y-2 ml-4">
-              <li>We may share data with authorised clubs, event organisers, prize sponsors, insurers, or service providers only as necessary for operations.</li>
-              <li>We do not sell personal data.</li>
-            </ul>
+            <p className="text-foreground/80 leading-relaxed">
+              We may share data with authorised clubs, event organisers, prize sponsors, insurers, or service providers only as necessary for operations. We do not sell personal data.
+            </p>
           </section>
 
           <section>
@@ -78,10 +74,9 @@ const Privacy = () => {
 
           <section>
             <h2 className="text-2xl font-semibold text-primary mb-3">9. Age restriction</h2>
-            <ul className="list-disc list-inside text-foreground/80 space-y-2 ml-4">
-              <li>Services are for individuals aged 18 and over.</li>
-              <li>We will verify age before awarding prizes.</li>
-            </ul>
+            <p className="text-foreground/80 leading-relaxed">
+              Services are for individuals aged 18 and over. We will verify age before awarding prizes.
+            </p>
           </section>
 
           <section>
