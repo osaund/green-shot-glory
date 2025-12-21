@@ -107,10 +107,9 @@ const Privacy = () => {
 
           <section>
             <h2 className="text-2xl font-semibold text-primary mb-3">13. Consent</h2>
-            <ul className="list-disc list-inside text-foreground/80 space-y-2 ml-4">
-              <li>By ticking the checkbox on our website/app, you confirm you have read this privacy policy and agree to the collection and use of your data as described.</li>
-              <li>You may withdraw consent for optional processing at any time.</li>
-            </ul>
+            <p className="text-foreground/80 leading-relaxed">
+              By using our services, you confirm you have read this privacy policy and agree to the collection and use of your data as described. You may withdraw consent for optional processing at any time.
+            </p>
           </section>
         </div>
       </div>
