@@ -31,7 +31,7 @@ const pricingOptions = [
       "Detailed stats tracking",
       "Cancel anytime",
     ],
-    cta: "Coming Soon",
+    cta: "Sign In",
     variant: "prize" as const,
   },
 ];
