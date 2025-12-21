@@ -60,7 +60,7 @@ export function Layout({ children }: LayoutProps) {
 
           <a href="https://app.holeoutgolf.co.uk" target="_blank" rel="noopener noreferrer">
             <Button variant="prize" size="sm">
-              Get Started
+              Sign In
             </Button>
           </a>
         </div>
