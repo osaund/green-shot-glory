@@ -10,6 +10,7 @@ const pricingOptions = [
     period: "",
     features: [
       "Scan QR code at tee box",
+      "Or pay in app",
       "Instant payment via mobile",
       "Full shot verification",
       "Win cash on hole-in-one",
@@ -25,7 +26,7 @@ const pricingOptions = [
     popular: true,
     features: [
       "One attempt per day",
-      "Or pay in app",
+      "Access to all partner courses",
       "Access to all partner courses",
       "Priority shot processing",
       "Win cash on hole-in-one",
