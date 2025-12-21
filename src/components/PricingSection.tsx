@@ -25,6 +25,7 @@ const pricingOptions = [
     popular: true,
     features: [
       "One attempt per day",
+      "Or pay in app",
       "Access to all partner courses",
       "Priority shot processing",
       "Win cash on hole-in-one",
