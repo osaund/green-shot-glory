@@ -27,7 +27,7 @@ export const Footer = () => {
               <li><Link to="/courses" onClick={scrollToTop} className="hover:text-accent transition-colors">Courses</Link></li>
               <li><Link to="/why-us" onClick={scrollToTop} className="hover:text-accent transition-colors">Why Us</Link></li>
               <li><Link to="/faqs" onClick={scrollToTop} className="hover:text-accent transition-colors">FAQ</Link></li>
-              <li><a href="https://app.holeoutgolf.co.uk" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Get Started</a></li>
+              <li><a href="https://app.holeoutgolf.co.uk" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Sign In</a></li>
             </ul>
           </div>
 
