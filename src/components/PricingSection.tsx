@@ -98,8 +98,11 @@ export const PricingSection = () => {
                     size="lg" 
                     variant={option.variant}
                     className="w-full text-lg h-12"
+                    asChild
                   >
-                    {option.cta}
+                    <a href="https://app.holeoutgolf.co.uk" target="_blank" rel="noopener noreferrer">
+                      {option.cta}
+                    </a>
                   </Button>
                 )}
               </CardContent>
