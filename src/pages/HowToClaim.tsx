@@ -1,28 +1,32 @@
 import { SEO } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
-import { CheckCircle, UserPlus, Trophy, FileText } from "lucide-react";
+import { CheckCircle, UserPlus, FileText, Camera } from "lucide-react";
 
 const HowToClaim = () => {
   const steps = [
     {
+      number: 1,
       icon: UserPlus,
-      title: "Sign Up on the App",
-      description: "Download the Hole Out Golf app and create your free account. You'll need to provide basic details to get started."
+      title: "Sign Up or Sign In",
+      description: "Head to the Hole Out Golf web app and create your free account, or sign in if you already have one."
     },
     {
-      icon: Trophy,
-      title: "Record Your Hole-in-One",
-      description: "Make sure your hole-in-one is witnessed and recorded on your scorecard. Take photos of the scorecard and the hole if possible."
-    },
-    {
+      number: 2,
       icon: FileText,
       title: "Submit Your Claim",
-      description: "Log into the app, navigate to 'Submit Claim' and fill out the claim form with all required details including date, course, hole number, and witness information."
+      description: "Navigate to 'Submit Claim' and fill out the form with the date, course, and hole number."
     },
     {
+      number: 3,
+      icon: Camera,
+      title: "Camera Verification",
+      description: "Our on-course cameras automatically verify your hole-in-one. No paperwork or witnesses needed."
+    },
+    {
+      number: 4,
       icon: CheckCircle,
-      title: "Claim Verified & Prize Awarded",
-      description: "Our team will verify your claim with the golf club. Once approved, your prize will be processed and sent to you."
+      title: "Prize Awarded",
+      description: "Once verified, your prize will be processed and sent to you. It's that simple!"
     }
   ];
 
@@ -30,7 +34,7 @@ const HowToClaim = () => {
     <>
       <SEO
         title="How to Claim Your Hole-in-One Prize | Hole Out Golf"
-        description="Got a hole-in-one? Learn how to claim your prize with Hole Out Golf. Simply sign up on the app and submit your claim in minutes."
+        description="Got a hole-in-one? Learn how to claim your prize with Hole Out Golf. Simply sign up and submit your claim in minutes."
         canonicalUrl="https://holeoutgolf.co.uk/how-to-claim"
         keywords="hole in one claim, golf prize claim, how to claim hole in one, golf competition prize"
       />
@@ -47,22 +51,18 @@ const HowToClaim = () => {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <div className="grid gap-8">
-              {steps.map((step, index) => (
+            <div className="grid gap-6">
+              {steps.map((step) => (
                 <div
-                  key={index}
+                  key={step.number}
                   className="flex gap-6 items-start bg-card p-6 rounded-xl border border-border shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <div className="flex-shrink-0">
-                    <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center">
-                      <step.icon className="w-8 h-8 text-accent" />
-                    </div>
+                  <div className="flex-shrink-0 w-12 h-12 bg-accent text-accent-foreground rounded-full flex items-center justify-center text-xl font-bold">
+                    {step.number}
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
-                      <span className="text-sm font-bold text-accent bg-accent/10 px-3 py-1 rounded-full">
-                        Step {index + 1}
-                      </span>
+                      <step.icon className="w-5 h-5 text-accent" />
                       <h2 className="text-xl font-bold text-foreground">{step.title}</h2>
                     </div>
                     <p className="text-muted-foreground">{step.description}</p>
@@ -74,11 +74,11 @@ const HowToClaim = () => {
             <div className="mt-12 text-center bg-primary/5 p-8 rounded-2xl border border-primary/20">
               <h3 className="text-2xl font-bold text-foreground mb-4">Ready to Claim?</h3>
               <p className="text-muted-foreground mb-6">
-                Sign up on the app today and submit your hole-in-one claim in just a few minutes.
+                Sign up today and submit your hole-in-one claim in just a few minutes.
               </p>
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
                 <a href="https://app.holeoutgolf.co.uk" target="_blank" rel="noopener noreferrer">
-                  Go to the App
+                  Sign Up Now
                 </a>
               </Button>
             </div>
@@ -89,10 +89,6 @@ const HowToClaim = () => {
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                   <span>Claims must be submitted within 7 days of the hole-in-one</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                  <span>A witness signature or club verification is required</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
