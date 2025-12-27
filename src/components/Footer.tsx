@@ -1,4 +1,4 @@
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const scrollToTop = () => {
@@ -15,9 +15,16 @@ export const Footer = () => {
             <p className="text-primary-foreground/80 mb-4">
               The premier hole-in-one competition platform for golfers and clubs.
             </p>
-            <p className="text-primary-foreground/60 text-sm">
-              holeoutgolf.co.uk
-            </p>
+            <a 
+              href="https://www.instagram.com/hole_out_golf/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-accent transition-colors"
+              aria-label="Follow us on Instagram"
+            >
+              <Instagram className="w-5 h-5" />
+              <span>@hole_out_golf</span>
+            </a>
           </div>
 
           <div>
