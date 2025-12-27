@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/Footer";
-import { Menu, X, Home, Info, HelpCircle, MapPin } from "lucide-react";
+import { Menu, X, Home, Info, HelpCircle, MapPin, Trophy } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
@@ -13,6 +13,7 @@ const navItems = [
   { title: "Home", url: "/", icon: Home },
   { title: "Courses", url: "/courses", icon: MapPin },
   { title: "Why Us", url: "/why-us", icon: Info },
+  { title: "How to Claim", url: "/how-to-claim", icon: Trophy },
   { title: "FAQs", url: "/faqs", icon: HelpCircle },
 ];
 
