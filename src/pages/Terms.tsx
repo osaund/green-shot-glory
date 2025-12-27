@@ -1,6 +1,14 @@
+import { SEO } from "@/components/SEO";
+
 const Terms = () => {
   return (
     <div className="bg-background py-16">
+      <SEO
+        title="Terms & Conditions - Competition Rules"
+        description="Read the full terms and conditions for Hole Out Golf competitions. Covers eligibility, entry requirements, prizes, verification, and participant rights."
+        canonicalUrl="https://holeoutgolf.co.uk/terms"
+        keywords="terms and conditions, golf competition rules, hole in one terms, competition eligibility"
+      />
       <div className="container mx-auto px-6 max-w-4xl">
         <h1 className="text-4xl font-bold text-primary mb-2">Player Terms & Conditions</h1>
         <p className="text-muted-foreground mb-12">Last Updated: 23/12/2025</p>

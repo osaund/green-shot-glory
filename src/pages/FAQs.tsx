@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { SEO } from "@/components/SEO";
 
 const faqCategories = [
   {
@@ -133,9 +134,32 @@ const faqCategories = [
   }
 ];
 
+// Generate FAQ structured data
+const faqStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqCategories.flatMap(category => 
+    category.faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.answer
+      }
+    }))
+  )
+};
+
 export default function FAQs() {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="FAQs - Hole Out Golf Competition Questions Answered"
+        description="Find answers to frequently asked questions about Hole Out Golf competitions. Learn about entry, verification, prizes, equipment, and golf club partnerships."
+        canonicalUrl="https://holeoutgolf.co.uk/faqs"
+        keywords="hole out golf FAQ, golf competition questions, hole in one rules, golf club partnership"
+        structuredData={faqStructuredData}
+      />
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-b from-primary to-primary/90 text-white">
         <div className="container mx-auto px-6 text-center">

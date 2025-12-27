@@ -9,6 +9,7 @@ import {
   Zap,
   CheckCircle
 } from "lucide-react";
+import { SEO } from "@/components/SEO";
 
 const features = [
   {
@@ -50,6 +51,12 @@ const benefits = [
 export default function WhyUs() {
   return (
     <div className="bg-background">
+      <SEO
+        title="Why Choose Hole Out Golf - Trusted Golf Competition"
+        description="Discover why golfers trust Hole Out Golf for daily hole-in-one competitions. Dual-camera verification, guaranteed rewards, and a growing network of partner courses."
+        canonicalUrl="https://holeoutgolf.co.uk/why-us"
+        keywords="golf competition benefits, trusted golf platform, hole in one verification, golf rewards UK"
+      />
 
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-b from-primary to-primary/90 text-white">
