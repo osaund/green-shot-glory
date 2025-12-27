@@ -83,6 +83,20 @@ const HowToClaim = () => {
               </Button>
             </div>
 
+
+            <div className="mt-12 bg-muted/50 p-6 rounded-xl">
+              <h3 className="text-lg font-semibold text-foreground mb-3">Important Notes</h3>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>You must be 18 or over to claim a prize</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>The hole-in-one must occur on a participating course and hole</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
