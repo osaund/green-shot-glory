@@ -1,4 +1,4 @@
-import { Mail, MapPin, Instagram } from "lucide-react";
+import { Mail, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const scrollToTop = () => {
@@ -33,6 +33,7 @@ export const Footer = () => {
               <li><Link to="/" onClick={scrollToTop} className="hover:text-accent transition-colors">Home</Link></li>
               <li><Link to="/courses" onClick={scrollToTop} className="hover:text-accent transition-colors">Courses</Link></li>
               <li><Link to="/why-us" onClick={scrollToTop} className="hover:text-accent transition-colors">Why Us</Link></li>
+              <li><Link to="/how-to-claim" onClick={scrollToTop} className="hover:text-accent transition-colors">How to Claim</Link></li>
               <li><Link to="/faqs" onClick={scrollToTop} className="hover:text-accent transition-colors">FAQ</Link></li>
               <li><a href="https://app.holeoutgolf.co.uk" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">Sign In</a></li>
             </ul>
@@ -44,10 +45,6 @@ export const Footer = () => {
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 <span>info@holeoutgolf.co.uk</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <MapPin className="w-4 h-4" />
-                <span>Nationwide Coverage</span>
               </li>
             </ul>
           </div>
