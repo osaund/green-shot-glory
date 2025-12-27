@@ -95,6 +95,14 @@ const HowToClaim = () => {
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                   <span>The hole-in-one must occur on a participating course and hole</span>
                 </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>Track the progress of your claim in "My Claims"</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span>We may request ID or other documents for verification purposes</span>
+                </li>
               </ul>
             </div>
           </div>
