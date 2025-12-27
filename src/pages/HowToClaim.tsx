@@ -8,7 +8,20 @@ const HowToClaim = () => {
       number: 1,
       icon: UserPlus,
       title: "Sign Up or Sign In",
-      description: "Head to the Hole Out Golf web app and create your free account, or sign in if you already have one."
+      description: (
+        <>
+          Head to the{" "}
+          <a 
+            href="https://app.holeoutgolf.co.uk" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-accent hover:underline font-medium"
+          >
+            Hole Out Golf web app
+          </a>{" "}
+          and create your free account, or sign in if you already have one.
+        </>
+      )
     },
     {
       number: 2,
