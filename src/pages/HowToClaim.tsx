@@ -14,7 +14,7 @@ const HowToClaim = () => {
       number: 2,
       icon: FileText,
       title: "Submit Your Claim",
-      description: "Navigate to 'Submit Claim' and fill out the form with the date, course, and hole number."
+      description: "Navigate to 'Submit Claim' and fill out the form."
     },
     {
       number: 3,
@@ -83,19 +83,6 @@ const HowToClaim = () => {
               </Button>
             </div>
 
-            <div className="mt-12 bg-muted/50 p-6 rounded-xl">
-              <h3 className="text-lg font-semibold text-foreground mb-3">Important Notes</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                  <span>Claims must be submitted within 7 days of the hole-in-one</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                  <span>The hole-in-one must occur at a participating course during an active competition</span>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </section>
