@@ -1,6 +1,14 @@
+import { SEO } from "@/components/SEO";
+
 const Privacy = () => {
   return (
     <div className="min-h-screen bg-background py-16">
+      <SEO
+        title="Privacy Policy - How We Handle Your Data"
+        description="Learn how Hole Out Golf collects, uses, and protects your personal data. Our privacy policy covers GDPR rights, video footage, and data retention."
+        canonicalUrl="https://holeoutgolf.co.uk/privacy"
+        keywords="privacy policy, data protection, GDPR, golf competition privacy"
+      />
       <div className="container mx-auto px-6 max-w-4xl">
         <h1 className="text-4xl font-bold text-primary mb-2">Privacy Policy</h1>
         <p className="text-muted-foreground mb-8">Last updated: 21/12/25</p>

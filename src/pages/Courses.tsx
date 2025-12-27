@@ -3,10 +3,43 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import ampfieldCourse from "@/assets/ampfield-golf-club-panorama.jpg";
 import ampfieldCourse2 from "@/assets/ampfield-golf-course-2.jpg";
+import { SEO } from "@/components/SEO";
+
+const coursesStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Hole Out Golf Partner Courses",
+  "description": "Golf courses participating in the Hole Out Golf daily competition",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "GolfCourse",
+        "name": "Ampfield Golf Club",
+        "description": "18 Hole Par 3 course designed by Sir Henry Cotton in Hampshire",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Romsey",
+          "addressRegion": "Hampshire",
+          "addressCountry": "GB"
+        },
+        "url": "https://www.ampfieldgolf.com"
+      }
+    }
+  ]
+};
 
 const Courses = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Partner Golf Courses - Daily Competition Locations"
+        description="Find Hole Out Golf partner courses across the UK. Enter our daily hole-in-one competition at Ampfield Golf Club and more courses coming soon."
+        canonicalUrl="https://holeoutgolf.co.uk/courses"
+        keywords="golf courses UK, par 3 golf courses, Ampfield Golf Club, Hampshire golf, hole in one courses"
+        structuredData={coursesStructuredData}
+      />
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-primary via-primary/95 to-primary/90">
         <div className="container mx-auto px-6 text-center">
