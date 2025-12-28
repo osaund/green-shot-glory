@@ -9,6 +9,7 @@ const pricingOptions = [
     price: "From £3",
     period: "",
     features: [
+      "One shot per day",
       "Scan QR code at tee box",
       "Or pay in app",
       "Instant payment via mobile",
