@@ -22,11 +22,11 @@ export const Hero = () => {
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           Hole Out Golf<br />
-          <span className="text-accent">Win £1,000 for a Hole-in-One</span>
+          <span className="text-accent">Daily Golf Competition</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed">
-          Get a hole-in-one and win £1,000! Our dual-camera system captures every shot and celebrates every champion.
+          Enter our daily hole-in-one competition for your chance to win £1,000. Our dual-camera system captures every shot and celebrates every champion.
         </p>
       </div>
     </section>
