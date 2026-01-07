@@ -9,7 +9,7 @@ const coursesStructuredData = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Hole Out Golf Partner Courses",
-  "description": "Golf courses participating in the Hole Out Golf daily competition",
+  "description": "Golf courses participating in the Hole Out Golf Hole-in-One chance",
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -47,7 +47,7 @@ const Courses = () => {
             Partner Courses
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Enter our daily golf competition at partner courses across the UK
+            Take your Hole-in-One chance at partner courses across the UK
           </p>
         </div>
       </section>
@@ -131,7 +131,7 @@ const Courses = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end">
                     <div className="p-4 text-white">
                       <p className="font-semibold">Hole Out Golf Coming Soon</p>
-                      <p className="text-sm text-white/80">Enter our daily competition on any par 3</p>
+                      <p className="text-sm text-white/80">Take your Hole-in-One chance on any par 3</p>
                     </div>
                   </div>
                 </div>
