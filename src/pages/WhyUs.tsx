@@ -24,8 +24,8 @@ const features = [
   },
   {
     icon: Trophy,
-    title: "Daily Competitions",
-    description: "Enter our daily hole-in-one competition at any partner course. Every day is a new chance to become a champion."
+    title: "Everyday Opportunities",
+    description: "Enter our hole-in-one challenge at any partner course. Every day is a new chance to become a champion."
   },
   {
     icon: Users,
@@ -52,10 +52,10 @@ export default function WhyUs() {
   return (
     <div className="bg-background">
       <SEO
-        title="Why Choose Hole Out Golf - Trusted Golf Competition"
-        description="Discover why golfers trust Hole Out Golf for daily hole-in-one competitions. Dual-camera verification, guaranteed rewards, and a growing network of partner courses."
+        title="Why Choose Hole Out Golf - Trusted Hole-in-One Challenge"
+        description="Discover why golfers trust Hole Out Golf for hole-in-one challenges. Dual-camera verification, guaranteed rewards, and a growing network of partner courses."
         canonicalUrl="https://holeoutgolf.co.uk/why-us"
-        keywords="golf competition benefits, trusted golf platform, hole in one verification, golf rewards UK"
+        keywords="golf challenge benefits, trusted golf platform, hole in one verification, golf rewards UK"
       />
 
       {/* Hero Section */}
@@ -115,7 +115,7 @@ export default function WhyUs() {
             Ready to Take Your Shot?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-xl mx-auto">
-            Join thousands of golfers already entering our daily competitions.
+            Join thousands of golfers already taking their shot.
           </p>
           <Link to="/">
             <Button variant="prize" size="lg" className="text-lg px-8">
