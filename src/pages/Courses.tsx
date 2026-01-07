@@ -9,7 +9,7 @@ const coursesStructuredData = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   "name": "Hole Out Golf Partner Courses",
-  "description": "Golf courses participating in the Hole Out Golf daily competition",
+  "description": "Golf courses participating in the Hole Out Golf hole-in-one challenge",
   "itemListElement": [
     {
       "@type": "ListItem",
@@ -34,8 +34,8 @@ const Courses = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Partner Golf Courses - Daily Competition Locations"
-        description="Find Hole Out Golf partner courses across the UK. Enter our daily hole-in-one competition at Ampfield Golf Club and more courses coming soon."
+        title="Partner Golf Courses - Challenge Locations"
+        description="Find Hole Out Golf partner courses across the UK. Enter our hole-in-one challenge at Ampfield Golf Club and more courses coming soon."
         canonicalUrl="https://holeoutgolf.co.uk/courses"
         keywords="golf courses UK, par 3 golf courses, Ampfield Golf Club, Hampshire golf, hole in one courses"
         structuredData={coursesStructuredData}
@@ -47,7 +47,7 @@ const Courses = () => {
             Partner Courses
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Enter our daily golf competition at partner courses across the UK
+            Take your shot at partner courses across the UK
           </p>
         </div>
       </section>
@@ -131,7 +131,7 @@ const Courses = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end">
                     <div className="p-4 text-white">
                       <p className="font-semibold">Hole Out Golf Coming Soon</p>
-                      <p className="text-sm text-white/80">Enter our daily competition on any par 3</p>
+                      <p className="text-sm text-white/80">Take your shot on any par 3</p>
                     </div>
                   </div>
                 </div>

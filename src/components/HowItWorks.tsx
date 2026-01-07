@@ -33,7 +33,7 @@ export const HowItWorks = () => {
             How It Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Three simple steps to enter our daily competition
+            Three simple steps to take your shot
           </p>
         </div>
 

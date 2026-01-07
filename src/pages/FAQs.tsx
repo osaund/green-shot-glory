@@ -12,7 +12,7 @@ const faqCategories = [
     faqs: [
       {
         question: "What exactly is Hole Out Golf and how does it work?",
-        answer: "Hole Out Golf runs a daily, club-hosted hole-in-one competition. Players register and play the hole as part of their normal round; every verified hole-in-one during the competition makes you the day's champion. Verification is done using time-synced camera footage, timestamps and an audit trail."
+        answer: "Hole Out Golf runs a club-hosted hole-in-one challenge. Players register and play the hole as part of their normal round; every verified hole-in-one makes you a champion. Verification is done using time-synced camera footage, timestamps and an audit trail."
       },
       {
         question: "Is this a game of skill or classed as gambling?",
