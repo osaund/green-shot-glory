@@ -18,6 +18,11 @@ export const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
+        <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6">
+          <span className="w-2 h-2 bg-accent rounded-full animate-pulse" />
+          <span className="text-white/90 text-sm font-medium">Coming Soon</span>
+        </div>
+        
         <img src={logo} alt="Hole Out Golf Logo" className="w-32 h-32 mx-auto mb-6" />
         
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
