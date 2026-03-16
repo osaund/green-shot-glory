@@ -22,7 +22,7 @@ const pricingOptions = [
   {
     name: "Monthly Subscription",
     description: "Best value for regular golfers",
-    price: "£11.99",
+    price: "£9.99",
     period: "per month",
     popular: true,
     features: [
