@@ -120,7 +120,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Complaints</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">11. Complaints</h2>
               <p className="text-muted-foreground">If you have concerns about how we handle your data, you have the right to lodge a complaint with the Information Commissioner's Office (ICO) in the United Kingdom.</p>
             </section>
 
