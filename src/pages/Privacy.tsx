@@ -110,7 +110,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Third-party links</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">9. Third-party links</h2>
               <p className="text-muted-foreground">Our website or platform may contain links to third-party websites. We are not responsible for the privacy practices of those sites.</p>
             </section>
 
