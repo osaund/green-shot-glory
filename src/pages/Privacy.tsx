@@ -92,7 +92,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Data security</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">7. Data security</h2>
               <p className="text-muted-foreground">We implement appropriate technical and organisational measures to protect your personal data against unauthorised access, loss, misuse, or disclosure.</p>
             </section>
 
