@@ -97,7 +97,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Your rights</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">8. Your rights</h2>
               <p className="text-muted-foreground mb-2">Under UK data protection law, you have the right to:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-1 mb-2">
                 <li>request access to the personal data we hold about you</li>
