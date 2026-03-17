@@ -23,7 +23,7 @@ const Privacy = () => {
             </p>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Who we are</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">1. Who we are</h2>
               <p className="text-muted-foreground">Hole Out Golf Ltd is the data controller responsible for your personal data.</p>
             </section>
 
