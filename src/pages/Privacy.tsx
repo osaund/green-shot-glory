@@ -115,7 +115,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Changes to this policy</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">10. Changes to this policy</h2>
               <p className="text-muted-foreground">We may update this Privacy Policy from time to time. The latest version will always be available on our website, and continued use of our services indicates acceptance of any updates.</p>
             </section>
 
