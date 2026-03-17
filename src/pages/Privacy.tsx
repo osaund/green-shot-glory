@@ -124,12 +124,6 @@ const Privacy = () => {
               <p className="text-muted-foreground">If you have concerns about how we handle your data, you have the right to lodge a complaint with the Information Commissioner's Office (ICO) in the United Kingdom.</p>
             </section>
 
-            <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Contact</h2>
-              <p className="text-muted-foreground">Hole Out Golf Ltd</p>
-              <p className="text-muted-foreground">info@holeoutgolf.co.uk</p>
-              <p className="text-muted-foreground">www.holeoutgolf.co.uk</p>
-            </section>
           </div>
         </div>
       </main>
