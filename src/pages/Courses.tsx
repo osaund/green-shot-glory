@@ -64,9 +64,6 @@ const Courses = () => {
                   alt="Ampfield Golf Club Course - 18 Hole Par 3 in Hampshire" 
                   className="w-full h-64 md:h-80 object-cover"
                 />
-                <Badge className="absolute top-4 right-4 bg-accent text-accent-foreground text-sm px-4 py-2">
-                  Coming Soon
-                </Badge>
               </div>
               
               <CardContent className="p-6 md:p-8">
@@ -130,7 +127,7 @@ const Courses = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end">
                     <div className="p-4 text-white">
-                      <p className="font-semibold">Hole Out Golf Coming Soon</p>
+                      <p className="font-semibold">Hole Out Golf</p>
                       <p className="text-sm text-white/80">Take your shot on any par 3</p>
                     </div>
                   </div>
