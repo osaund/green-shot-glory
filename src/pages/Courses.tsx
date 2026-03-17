@@ -127,7 +127,7 @@ const Courses = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end">
                     <div className="p-4 text-white">
-                      <p className="font-semibold">Hole Out Golf Coming Soon</p>
+                      <p className="font-semibold">Hole Out Golf</p>
                       <p className="text-sm text-white/80">Take your shot on any par 3</p>
                     </div>
                   </div>
