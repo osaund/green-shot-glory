@@ -73,7 +73,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Sharing your information</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">5. Sharing your information</h2>
               <p className="text-muted-foreground mb-2">We may share your personal data with:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-1 mb-2">
                 <li>service providers who support our website, platform, and operations</li>
