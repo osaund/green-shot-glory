@@ -28,7 +28,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Information we collect</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">2. Information we collect</h2>
               <p className="text-muted-foreground mb-4">We may collect and process the following categories of personal data:</p>
 
               <h3 className="text-lg font-medium text-foreground mb-2">Information you provide to us</h3>
