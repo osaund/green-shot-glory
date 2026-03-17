@@ -62,7 +62,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Legal basis for processing</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">4. Legal basis for processing</h2>
               <p className="text-muted-foreground mb-2">We process your personal data on the following legal bases:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-1">
                 <li><strong>Performance of a contract</strong> – to provide access to and administer the Challenge</li>
