@@ -104,12 +104,6 @@ const Terms = () => {
               <p className="text-muted-foreground">These Terms are governed by the laws of England and Wales. Any disputes arising in connection with the Challenge shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
             </section>
 
-            <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">15. Contact</h2>
-              <p className="text-muted-foreground">Hole Out Golf Ltd</p>
-              <p className="text-muted-foreground">info@holeoutgolf.co.uk</p>
-              <p className="text-muted-foreground">www.holeoutgolf.co.uk</p>
-            </section>
           </div>
         </div>
       </main>
