@@ -48,7 +48,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">How we use your information</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">3. How we use your information</h2>
               <p className="text-muted-foreground mb-2">We use your personal data to:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-1 mb-2">
                 <li>operate and administer the Challenge</li>
