@@ -23,12 +23,12 @@ const Privacy = () => {
             </p>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Who we are</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">1. Who we are</h2>
               <p className="text-muted-foreground">Hole Out Golf Ltd is the data controller responsible for your personal data.</p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Information we collect</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">2. Information we collect</h2>
               <p className="text-muted-foreground mb-4">We may collect and process the following categories of personal data:</p>
 
               <h3 className="text-lg font-medium text-foreground mb-2">Information you provide to us</h3>
@@ -48,7 +48,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">How we use your information</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">3. How we use your information</h2>
               <p className="text-muted-foreground mb-2">We use your personal data to:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-1 mb-2">
                 <li>operate and administer the Challenge</li>
@@ -62,7 +62,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Legal basis for processing</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">4. Legal basis for processing</h2>
               <p className="text-muted-foreground mb-2">We process your personal data on the following legal bases:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-1">
                 <li><strong>Performance of a contract</strong> – to provide access to and administer the Challenge</li>
@@ -73,7 +73,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Sharing your information</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">5. Sharing your information</h2>
               <p className="text-muted-foreground mb-2">We may share your personal data with:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-1 mb-2">
                 <li>service providers who support our website, platform, and operations</li>
@@ -86,18 +86,18 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Data retention</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">6. Data retention</h2>
               <p className="text-muted-foreground mb-2">We retain personal data only for as long as necessary to fulfil the purposes set out in this policy, including administering the Challenge, processing claims, complying with legal obligations, and resolving disputes.</p>
               <p className="text-muted-foreground">Video footage may be retained for verification, security, and promotional purposes where applicable.</p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Data security</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">7. Data security</h2>
               <p className="text-muted-foreground">We implement appropriate technical and organisational measures to protect your personal data against unauthorised access, loss, misuse, or disclosure.</p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Your rights</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">8. Your rights</h2>
               <p className="text-muted-foreground mb-2">Under UK data protection law, you have the right to:</p>
               <ul className="list-disc list-inside text-muted-foreground space-y-1 mb-2">
                 <li>request access to the personal data we hold about you</li>
@@ -110,17 +110,17 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Third-party links</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">9. Third-party links</h2>
               <p className="text-muted-foreground">Our website or platform may contain links to third-party websites. We are not responsible for the privacy practices of those sites.</p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Changes to this policy</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">10. Changes to this policy</h2>
               <p className="text-muted-foreground">We may update this Privacy Policy from time to time. The latest version will always be available on our website, and continued use of our services indicates acceptance of any updates.</p>
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Complaints</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">11. Complaints</h2>
               <p className="text-muted-foreground">If you have concerns about how we handle your data, you have the right to lodge a complaint with the Information Commissioner's Office (ICO) in the United Kingdom.</p>
             </section>
 
