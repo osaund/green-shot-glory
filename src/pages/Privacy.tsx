@@ -86,7 +86,7 @@ const Privacy = () => {
             </section>
 
             <section>
-              <h2 className="text-xl font-semibold text-primary mb-3">Data retention</h2>
+              <h2 className="text-xl font-semibold text-primary mb-3">6. Data retention</h2>
               <p className="text-muted-foreground mb-2">We retain personal data only for as long as necessary to fulfil the purposes set out in this policy, including administering the Challenge, processing claims, complying with legal obligations, and resolving disputes.</p>
               <p className="text-muted-foreground">Video footage may be retained for verification, security, and promotional purposes where applicable.</p>
             </section>
