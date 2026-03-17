@@ -11,8 +11,7 @@ const Terms = () => {
       />
       <main className="min-h-screen bg-background py-16">
         <div className="container mx-auto px-6 max-w-3xl">
-          <h1 className="text-4xl font-bold text-primary mb-2 text-center">Hole Out Golf Ltd – Participant Terms of Use</h1>
-          <p className="text-muted-foreground text-center mb-10">Effective from: 18/03/2026</p>
+          <h1 className="text-4xl font-bold text-primary mb-10 text-center">Hole Out Golf Ltd – Participant Terms of Use</h1>
 
           <div className="bg-card rounded-2xl p-8 md:p-12 shadow-lg border border-border space-y-8 text-foreground">
             <p>
