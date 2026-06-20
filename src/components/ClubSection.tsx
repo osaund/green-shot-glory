@@ -31,10 +31,6 @@ export const ClubSection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full mb-4 border border-primary/20">
-              <Building2 className="w-4 h-4 text-primary" />
-              <span className="text-sm font-medium text-primary">For Golf Clubs</span>
-            </div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               Partner With Us
             </h2>
