@@ -74,7 +74,13 @@ const Courses = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             {/* Boundary Lakes Golf Course Card */}
-            <Card className="overflow-hidden border-2 border-accent/20 shadow-xl">
+            <Card className="overflow-hidden border-2 border-accent/20 shadow-xl relative">
+              <div className="absolute inset-0 bg-background/60 z-10 pointer-events-none" />
+              <div className="absolute top-4 right-4 z-20">
+                <Badge className="bg-accent text-primary font-bold px-3 py-1 text-sm">
+                  Coming Soon
+                </Badge>
+              </div>
               <div className="relative">
                 <img 
                   src={boundaryLakesCourse} 
@@ -83,17 +89,12 @@ const Courses = () => {
                 />
               </div>
               
-              <CardContent className="p-6 md:p-8">
+              <CardContent className="p-6 md:p-8 relative z-20">
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                   <div>
-                    <a 
-                      href="https://www.utilitabowl.com/golf/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-2xl md:text-3xl font-bold text-foreground mb-2 hover:text-primary transition-colors"
-                    >
+                    <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-2">
                       Boundary Lakes Golf Course
-                    </a>
+                    </h2>
                     <div className="flex items-center text-muted-foreground">
                       <MapPin className="h-4 w-4 mr-2" />
                       <span>Southampton, Hampshire</span>
