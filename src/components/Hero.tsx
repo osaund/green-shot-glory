@@ -30,11 +30,14 @@ export const Hero = () => {
       <div className="w-12 h-px bg-accent/40 my-8" />
 
       {/* Subhead */}
-      <p className="text-background/70 text-center text-lg md:text-xl max-w-lg leading-relaxed mb-3">
-        Enter our daily hole-in-one competition for your chance to win
+      <p className="text-background/80 text-center text-lg md:text-xl max-w-lg leading-relaxed mb-2">
+        Sink it on camera. Walk away with
       </p>
-      <p className="font-display text-accent text-5xl md:text-6xl uppercase tracking-tight text-center mb-12">
+      <p className="font-display text-accent text-5xl md:text-6xl uppercase tracking-tight text-center mb-4">
         £1,000
+      </p>
+      <p className="text-background/60 text-center text-sm md:text-base max-w-md mb-10">
+        New winners every day. No membership required. Just show up and take your shot.
       </p>
 
       <Link
