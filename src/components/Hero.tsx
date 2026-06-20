@@ -8,7 +8,7 @@ export const Hero = () => {
       <img
         src={logo}
         alt="Hole Out Golf"
-        className="w-28 h-28 md:w-36 md:h-36 mb-8 object-contain"
+        className="w-36 h-36 md:w-48 md:h-48 mb-10 object-contain"
       />
 
       {/* Small top label */}
