@@ -36,6 +36,13 @@ export const Hero = () => {
         £1,000
       </p>
 
+      <Link
+        to="/courses"
+        className="bg-accent text-foreground px-10 py-4 rounded-full uppercase tracking-[0.15em] text-xs font-bold text-center shadow-lg transition-transform active:scale-95 hover:scale-[1.02]"
+      >
+        View Courses
+      </Link>
+
       {/* Subtle texture overlay */}
       <div
         className="absolute inset-0 pointer-events-none opacity-[0.03] mix-blend-overlay"
