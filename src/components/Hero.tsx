@@ -35,22 +35,6 @@ export const Hero = () => {
         £1,000
       </p>
 
-      {/* CTAs */}
-      <div className="w-full max-w-sm flex flex-col gap-3">
-        <a
-          href="#challenge"
-          className="w-full bg-accent text-foreground py-4 rounded-full uppercase tracking-[0.15em] text-xs font-bold text-center shadow-lg transition-transform active:scale-95 hover:scale-[1.02]"
-        >
-          Book Your Session
-        </a>
-        <a
-          href="#courses"
-          className="w-full border border-background/20 text-background py-4 rounded-full uppercase tracking-[0.15em] text-xs font-semibold text-center transition-colors hover:bg-background/10"
-        >
-          The Course
-        </a>
-      </div>
-
       {/* Subtle texture overlay */}
       <div
         className="absolute inset-0 pointer-events-none opacity-[0.03] mix-blend-overlay"
