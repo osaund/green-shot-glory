@@ -21,7 +21,7 @@ export const Hero = () => {
         <h1 className="font-display text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-background uppercase leading-[1] tracking-tight">
           Hole Out
           <br />
-          <span className="text-accent">Golf</span>
+          <span className="text-background">Golf</span>
         </h1>
       </div>
 
