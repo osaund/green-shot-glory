@@ -17,22 +17,6 @@ const coursesStructuredData = {
       "position": 1,
       "item": {
         "@type": "GolfCourse",
-        "name": "Ampfield Golf Club",
-        "description": "18 Hole Par 3 course designed by Sir Henry Cotton in Hampshire",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Romsey",
-          "addressRegion": "Hampshire",
-          "addressCountry": "GB"
-        },
-        "url": "https://www.ampfieldgolf.com"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "item": {
-        "@type": "GolfCourse",
         "name": "Boundary Lakes Golf Course",
         "description": "Par 69 parkland course at Utilita Bowl, Southampton with USGA-standard greens",
         "address": {
@@ -42,6 +26,22 @@ const coursesStructuredData = {
           "addressCountry": "GB"
         },
         "url": "https://www.utilitabowl.com/golf/"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "GolfCourse",
+        "name": "Ampfield Golf Club",
+        "description": "18 Hole Par 3 course designed by Sir Henry Cotton in Hampshire",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Romsey",
+          "addressRegion": "Hampshire",
+          "addressCountry": "GB"
+        },
+        "url": "https://www.ampfieldgolf.com"
       }
     }
   ]
