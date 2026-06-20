@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import ampfieldCourse from "@/assets/ampfield-golf-club-panorama.jpg";
 import ampfieldCourse2 from "@/assets/ampfield-golf-course-2.jpg";
+import boundaryLakesCourse from "@/assets/boundary-lakes-course.jpg";
 import { SEO } from "@/components/SEO";
 
 const coursesStructuredData = {
@@ -25,6 +26,22 @@ const coursesStructuredData = {
           "addressCountry": "GB"
         },
         "url": "https://www.ampfieldgolf.com"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "GolfCourse",
+        "name": "Boundary Lakes Golf Course",
+        "description": "Par 69 parkland course at Utilita Bowl, Southampton with USGA-standard greens",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Southampton",
+          "addressRegion": "Hampshire",
+          "addressCountry": "GB"
+        },
+        "url": "https://www.utilitabowl.com/golf/"
       }
     }
   ]
