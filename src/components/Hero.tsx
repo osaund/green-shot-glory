@@ -21,17 +21,23 @@ export const Hero = () => {
         <h1 className="font-display text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-background uppercase leading-[1] tracking-tight">
           Hole Out Golf
         </h1>
+        <p className="font-display text-accent text-xl sm:text-2xl md:text-3xl uppercase tracking-[0.15em] mt-4">
+          The UK's Daily Hole-In-One Challenge
+        </p>
       </div>
 
       {/* Subtle divider */}
       <div className="w-12 h-px bg-accent/40 my-8" />
 
       {/* Subhead */}
-      <p className="text-background/70 text-center text-lg md:text-xl max-w-lg leading-relaxed mb-3">
-        Enter our daily hole-in-one competition for your chance to win
+      <p className="text-background/80 text-center text-lg md:text-xl max-w-lg leading-relaxed mb-2">
+        Sink it on camera. Walk away with
       </p>
-      <p className="font-display text-accent text-5xl md:text-6xl uppercase tracking-tight text-center mb-12">
+      <p className="font-display text-accent text-5xl md:text-6xl uppercase tracking-tight text-center mb-4">
         £1,000
+      </p>
+      <p className="text-background/60 text-center text-sm md:text-base max-w-md mb-10">
+        New winners every day. No membership required. Just show up and take your shot.
       </p>
 
       <Link
