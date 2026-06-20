@@ -52,9 +52,9 @@ const Courses = () => {
     <div className="min-h-screen">
       <SEO
         title="Partner Golf Courses - Challenge Locations"
-        description="Find Hole Out Golf partner courses across the UK. Enter our hole-in-one challenge at Ampfield Golf Club and more courses coming soon."
+        description="Find Hole Out Golf partner courses across the UK. Enter our hole-in-one challenge at Ampfield Golf Club and Boundary Lakes Golf Course in Southampton."
         canonicalUrl="https://holeoutgolf.co.uk/courses"
-        keywords="golf courses UK, par 3 golf courses, Ampfield Golf Club, Hampshire golf, hole in one courses"
+        keywords="golf courses UK, par 3 golf courses, Ampfield Golf Club, Boundary Lakes, Southampton golf, Hampshire golf, hole in one courses"
         structuredData={coursesStructuredData}
       />
       {/* Hero Section */}
