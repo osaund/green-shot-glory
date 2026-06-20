@@ -21,6 +21,9 @@ export const Hero = () => {
         <h1 className="font-display text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-background uppercase leading-[1] tracking-tight">
           Hole Out Golf
         </h1>
+        <p className="font-display text-accent text-xl sm:text-2xl md:text-3xl uppercase tracking-[0.15em] mt-4">
+          The UK's Daily Hole-In-One Challenge
+        </p>
       </div>
 
       {/* Subtle divider */}
