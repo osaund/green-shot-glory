@@ -38,7 +38,7 @@ export function Layout({ children }: LayoutProps) {
             
             <Link to="/" className="flex items-center hover:opacity-80 transition-opacity">
               <img src={logo} alt="Hole Out Golf Logo" className="h-10 w-10 ml-2 md:ml-0" />
-              <span className="ml-3 text-white font-bold text-lg">Hole Out Golf</span>
+              <span className="ml-3 text-white font-display uppercase tracking-wide text-lg">Hole Out Golf</span>
             </Link>
           </div>
 
