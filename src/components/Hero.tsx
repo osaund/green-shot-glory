@@ -1,9 +1,6 @@
 export const Hero = () => {
   return (
     <section className="relative min-h-[90vh] bg-primary flex flex-col items-center justify-center px-6 py-20">
-      {/* Decorative top accent line */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-px h-16 bg-accent/60" />
-
       {/* Small top label */}
       <span className="text-accent uppercase tracking-[0.3em] text-xs font-bold mb-8">
         Daily Competition · Open Now
