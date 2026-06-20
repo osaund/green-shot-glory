@@ -12,7 +12,7 @@ export const Hero = () => {
 
       {/* Small top label */}
       <span className="text-accent uppercase tracking-[0.3em] text-xs font-bold mb-8">
-        Daily Competition · Open Now
+        Daily Competition
       </span>
 
       {/* Main headline */}
