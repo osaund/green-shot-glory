@@ -1,6 +1,15 @@
+import logo from "@/assets/logo.png";
+
 export const Hero = () => {
   return (
     <section className="relative min-h-[90vh] bg-primary flex flex-col items-center justify-center px-6 py-20">
+      {/* Logo */}
+      <img
+        src={logo}
+        alt="Hole Out Golf"
+        className="w-20 h-20 md:w-24 md:h-24 mb-6 object-contain"
+      />
+
       {/* Small top label */}
       <span className="text-accent uppercase tracking-[0.3em] text-xs font-bold mb-8">
         Daily Competition · Open Now
