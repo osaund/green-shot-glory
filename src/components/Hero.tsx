@@ -8,17 +8,17 @@ export const Hero = () => {
       <img
         src={logo}
         alt="Hole Out Golf"
-        className="w-20 h-20 md:w-24 md:h-24 mb-6 object-contain"
+        className="w-28 h-28 md:w-36 md:h-36 mb-8 object-contain"
       />
 
       {/* Small top label */}
-      <span className="text-accent uppercase tracking-[0.3em] text-xs font-bold mb-8">
+      <span className="text-accent uppercase tracking-[0.3em] text-sm font-bold mb-10">
         Daily Competition
       </span>
 
       {/* Main headline */}
       <div className="text-center max-w-4xl">
-        <h1 className="font-display text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-background uppercase leading-[0.95] tracking-tight">
+        <h1 className="font-display text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] text-background uppercase leading-[0.95] tracking-tight">
           Hole Out
           <br />
           <span className="text-accent">Golf</span>
@@ -29,16 +29,16 @@ export const Hero = () => {
       <div className="w-12 h-px bg-accent/40 my-8" />
 
       {/* Subhead */}
-      <p className="text-background/70 text-center text-base md:text-lg max-w-md leading-relaxed mb-2">
+      <p className="text-background/70 text-center text-lg md:text-xl max-w-lg leading-relaxed mb-3">
         Enter our daily hole-in-one competition for your chance to win
       </p>
-      <p className="font-display text-accent text-4xl md:text-5xl uppercase tracking-tight text-center mb-10">
+      <p className="font-display text-accent text-5xl md:text-6xl uppercase tracking-tight text-center mb-12">
         £1,000
       </p>
 
       <Link
         to="/courses"
-        className="bg-accent text-foreground px-10 py-4 rounded-full uppercase tracking-[0.15em] text-xs font-bold text-center shadow-lg transition-transform active:scale-95 hover:scale-[1.02]"
+        className="bg-accent text-foreground px-12 py-5 rounded-full uppercase tracking-[0.15em] text-sm font-bold text-center shadow-lg transition-transform active:scale-95 hover:scale-[1.02]"
       >
         View Courses
       </Link>
