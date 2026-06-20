@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import ampfieldCourse from "@/assets/ampfield-golf-club-panorama.jpg";
 import ampfieldCourse2 from "@/assets/ampfield-golf-course-2.jpg";
+import boundaryLakesCourse from "@/assets/boundary-lakes-course.jpg";
 import { SEO } from "@/components/SEO";
 
 const coursesStructuredData = {
@@ -26,6 +27,22 @@ const coursesStructuredData = {
         },
         "url": "https://www.ampfieldgolf.com"
       }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "GolfCourse",
+        "name": "Boundary Lakes Golf Course",
+        "description": "Par 69 parkland course at Utilita Bowl, Southampton with USGA-standard greens",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Southampton",
+          "addressRegion": "Hampshire",
+          "addressCountry": "GB"
+        },
+        "url": "https://www.utilitabowl.com/golf/"
+      }
     }
   ]
 };
@@ -35,9 +52,9 @@ const Courses = () => {
     <div className="min-h-screen">
       <SEO
         title="Partner Golf Courses - Challenge Locations"
-        description="Find Hole Out Golf partner courses across the UK. Enter our hole-in-one challenge at Ampfield Golf Club and more courses coming soon."
+        description="Find Hole Out Golf partner courses across the UK. Enter our hole-in-one challenge at Ampfield Golf Club and Boundary Lakes Golf Course in Southampton."
         canonicalUrl="https://holeoutgolf.co.uk/courses"
-        keywords="golf courses UK, par 3 golf courses, Ampfield Golf Club, Hampshire golf, hole in one courses"
+        keywords="golf courses UK, par 3 golf courses, Ampfield Golf Club, Boundary Lakes, Southampton golf, Hampshire golf, hole in one courses"
         structuredData={coursesStructuredData}
       />
       {/* Hero Section */}
@@ -129,6 +146,69 @@ const Courses = () => {
                     <div className="p-4 text-white">
                       <p className="font-semibold">Hole Out Golf</p>
                       <p className="text-sm text-white/80">Take your shot on any par 3</p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Boundary Lakes Golf Course Card */}
+            <Card className="overflow-hidden border-2 border-accent/20 shadow-xl mt-12">
+              <div className="relative">
+                <img 
+                  src={boundaryLakesCourse} 
+                  alt="Boundary Lakes Golf Course - Par 69 parkland course in Southampton" 
+                  className="w-full h-64 md:h-80 object-cover"
+                />
+              </div>
+              
+              <CardContent className="p-6 md:p-8">
+                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
+                  <div>
+                    <a 
+                      href="https://www.utilitabowl.com/golf/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-2xl md:text-3xl font-bold text-foreground mb-2 hover:text-primary transition-colors"
+                    >
+                      Boundary Lakes Golf Course
+                    </a>
+                    <div className="flex items-center text-muted-foreground">
+                      <MapPin className="h-4 w-4 mr-2" />
+                      <span>Southampton, Hampshire</span>
+                    </div>
+                  </div>
+                  <Badge variant="outline" className="w-fit text-primary border-primary">
+                    18 Hole Par 69
+                  </Badge>
+                </div>
+
+                <p className="text-muted-foreground mb-6 leading-relaxed">
+                  Set against the iconic backdrop of Hampshire Cricket's home at Utilita Bowl, Boundary Lakes 
+                  is an 18-hole parkland course with USGA-standard greens. Built in 1999 and designed by 
+                  Weller Designs, it offers a true and consistent challenge for golfers of all abilities.
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                  <div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
+                    <Flag className="h-5 w-5 text-primary" />
+                    <div>
+                      <p className="text-sm text-muted-foreground">Holes</p>
+                      <p className="font-semibold text-foreground">18 Par 69</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
+                    <Clock className="h-5 w-5 text-primary" />
+                    <div>
+                      <p className="text-sm text-muted-foreground">Length</p>
+                      <p className="font-semibold text-foreground">5,154 yards</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg">
+                    <MapPin className="h-5 w-5 text-primary" />
+                    <div>
+                      <p className="text-sm text-muted-foreground">Location</p>
+                      <p className="font-semibold text-foreground">Southampton</p>
                     </div>
                   </div>
                 </div>
