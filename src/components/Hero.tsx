@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
 export const Hero = () => {
@@ -34,6 +35,13 @@ export const Hero = () => {
       <p className="font-display text-accent text-4xl md:text-5xl uppercase tracking-tight text-center mb-10">
         £1,000
       </p>
+
+      <Link
+        to="/courses"
+        className="bg-accent text-foreground px-10 py-4 rounded-full uppercase tracking-[0.15em] text-xs font-bold text-center shadow-lg transition-transform active:scale-95 hover:scale-[1.02]"
+      >
+        View Courses
+      </Link>
 
       {/* Subtle texture overlay */}
       <div
