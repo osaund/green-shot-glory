@@ -18,7 +18,7 @@ export const Hero = () => {
 
       {/* Main headline */}
       <div className="text-center max-w-4xl">
-        <h1 className="font-display text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-background uppercase leading-[0.85] tracking-tight">
+        <h1 className="font-display text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-background uppercase leading-[0.95] tracking-tight">
           Hole Out
           <br />
           <span className="text-accent">Golf</span>
