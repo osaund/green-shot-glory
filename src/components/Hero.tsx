@@ -38,7 +38,7 @@ export const Hero = () => {
 
       <Link
         to="/courses"
-        className="bg-accent text-foreground px-12 py-5 rounded-full uppercase tracking-[0.15em] text-sm font-bold text-center shadow-lg transition-transform active:scale-95 hover:scale-[1.02]"
+        className="bg-accent text-foreground px-8 py-3 rounded-full uppercase tracking-[0.15em] text-xs font-bold text-center shadow-lg transition-transform active:scale-95 hover:scale-[1.02]"
       >
         View Courses
       </Link>
