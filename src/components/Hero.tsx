@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 import heroBg from "@/assets/hero-bg.jpg";
 
@@ -42,13 +41,6 @@ export const Hero = () => {
         <p className="font-display text-accent text-5xl md:text-6xl uppercase tracking-tight text-center mb-12">
           £1,000
         </p>
-
-        <Link
-          to="/courses"
-          className="bg-accent text-foreground px-8 py-3 rounded-full uppercase tracking-[0.15em] text-xs font-bold text-center shadow-lg transition-transform active:scale-95 hover:scale-[1.02]"
-        >
-          View Courses
-        </Link>
       </div>
     </section>
   );
