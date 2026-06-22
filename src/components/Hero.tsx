@@ -26,7 +26,7 @@ export const Hero = () => {
 
         {/* Main headline */}
         <div className="text-center max-w-4xl px-2">
-          <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-background uppercase leading-[1] tracking-tight">
+          <h1 className="font-display text-6xl md:text-7xl lg:text-8xl text-background uppercase leading-[1] tracking-tight">
             Hole Out Golf
           </h1>
         </div>
@@ -38,7 +38,7 @@ export const Hero = () => {
         <p className="text-background/70 text-center text-lg md:text-xl max-w-lg leading-relaxed mb-3">
           Enter our daily hole-in-one competition for your chance to win
         </p>
-        <p className="font-display text-accent text-6xl md:text-7xl lg:text-8xl uppercase tracking-tight text-center mb-12 leading-none">
+        <p className="font-display text-accent text-7xl md:text-8xl uppercase tracking-tight text-center mb-12 leading-none">
           <span className="inline-block align-middle">£</span>
           <span className="inline-block align-middle">1,000</span>
         </p>
