@@ -4,7 +4,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 export const Hero = () => {
   return (
     <section
-      className="relative min-h-[90vh] flex flex-col items-center justify-start pt-12 md:pt-16 px-6 pb-20 bg-cover bg-center bg-no-repeat"
+      className="relative min-h-[90vh] flex flex-col items-center justify-start pt-20 md:pt-16 px-6 pb-20 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
       {/* Dark overlay for text readability */}
